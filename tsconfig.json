@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "esnext",
+        "strict": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "outDir": "dist",
+        "moduleResolution": "node",
+        "allowSyntheticDefaultImports": true,
+        "declaration": true
+    },
+    "files": ["./src/global.d.ts"],
+    "include": ["./src"],
+    "exclude": ["node_modules"]
+}
